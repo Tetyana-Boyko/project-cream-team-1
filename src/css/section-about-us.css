@@ -1,0 +1,125 @@
+.about-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 137%;
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+}
+
+.about-item {
+    position: relative;
+    width: 335px;
+
+}
+
+.about-about {
+    display: block;
+    margin-bottom: 50px;
+
+}
+
+.about-text {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.04em;
+    color: rgba(252, 249, 249, 0.4);
+    margin-bottom: 20px;
+    max-width: 335px;
+}
+
+.about-img {
+    border-radius: 4px;
+    width: 335px;
+    height: 499px;
+}
+
+.about-overlay {
+    position: absolute;
+    top: 611px;
+    left: 105px;
+    width: 459px;
+    height: 408px;
+}
+
+
+/*---tablet--*/
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+
+    .about-item {
+        width: 704px;
+
+    }
+
+    .about-title {
+        font-size: 44px;
+        line-height: 145%;
+        margin-bottom: 40px;
+    }
+
+    .about-about {
+        margin-bottom: 40px;
+    }
+
+    .about-text {
+        font-size: 16px;
+        max-width: 704px;
+    }
+
+    .about-img {
+        width: 704px;
+        height: 545px;
+
+    }
+
+    .about-overlay {
+        top: 473px;
+        left: 367px;
+        width: 545px;
+        height: 484px;
+    }
+}
+
+/*---- desktop 1280----*/
+@media screen and (min-width: 1280px) {
+
+    .container {
+        max-width: 1280px;
+        padding: 0 50px;
+    }
+
+    .about-item {
+        display: flex;
+        width: 1180px;
+    }
+
+    .about-about {
+        margin-bottom: 0px;
+    }
+
+    .about-list {
+        padding-top: 79px;
+        padding-bottom: 79px;
+        margin-right: 50px;
+    }
+
+    .about-text {
+        max-width: 508px;
+    }
+
+    .about-img {
+        width: 100%;
+        height: 545px;
+    }
+
+    .about-overlay {
+        top: 141px;
+        left: 845px;
+        width: 545px;
+        height: 484px;
+    }
+}

@@ -13,6 +13,56 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+body {
+  font-family: "Manrope", sans-serif;
+  color: #fcf9f9;
+  background-color: #1c2225;
+  list-style-type: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  padding: 0 20px 80px 20px;
+  margin: 0 auto;
+}
 
 /* Add stiles 
 
