@@ -1,0 +1,44 @@
+<!-- Order desktop1440 -->
+<section class="order">
+    <div class="order-bg-container"></div>
+    <div class="container order-container">
+        <div class="order-content-wrapper">
+            <h2 class="order-title" id="order">
+            <span class="order-accent-color">Your order</span> is our priority: Personalized
+            approach and quality of service
+            </h2>
+            <form class="order-form">
+                <div class="order-field-wrapper">
+                    <label class="order-field-label visually-hidden" for="user-name">Enter your full name</label>
+                    <input class="order-form-input" id="user-name" type="text" name="user-name"
+                        pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+" title="Viktor" required placeholder="Enter your full name" />
+                </div>
+                <div class="order-field-wrapper">
+                    <label class="order-field-label" for="user-email">Enter your email</label>
+                    <input class="order-form-input" id="user-email" type="email" name="user-email"
+                        pattern="ivettafrank@gmail.com" required placeholder="Enter your email" />
+                </div>
+                <div class="order-field-wrapper">
+                    <label class="order-field-label" for="user-comment">Comments</label>
+                    <textarea class="order-form-message" id="user-comment" name="user-comment" required
+                        placeholder="Comments"></textarea>
+                </div>
+                <button class="order-form-submit order-btn" type="submit">
+                    Send
+                    <svg class="order-submit-icon" width="26" height="10">
+                        <use href="./icons.svg#icon-button-arrow"></use>
+                    </svg>
+                </button>
+            </form>
+        </div>
+        <div class="order-img-wrapper">
+            <picture class="order-content">
+                <source srcset="../img/desktop-order/desktop-bg-order-min.jpg 1x, ../img/desktop-order/desktop-content-order@2x-min.jpg 2x"  media="(min-width: 1440px)"  
+                width="524" height="521"/>
+                <img class="order-content-img" src="./images/desktop-order/desktop-content-order-min.jpg"
+                    alt="gray embroidered shirt with white sleeves and ornaments in black, gray, white and red shades on a girl"
+                    loading="lazy" />
+            </picture>
+        </div>
+    </div>
+</section>
