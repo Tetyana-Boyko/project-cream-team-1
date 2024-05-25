@@ -17,21 +17,90 @@
     />
     
     <script type="module" crossorigin src="/project-cream-team-1/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-cream-team-1/assets/index-6b463299.css">
+    <link rel="stylesheet" href="/project-cream-team-1/assets/index-7181cf47.css">
   </head>
   <body>
     <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
-
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
+  <div class="container header-container">
+    <div class="header-left-block">
+      <a href="./index.html" class="header-logo"
+        ><img
+          src="./logo.svg"
+          alt="Vyshyvanka Vibes logo"
+          class="header-logo-img"
+          width="44"
+          height="40"
+          loading="lazy"
+      /></a>
+      <nav class="header-menu-general">
+        <ul class="header-general-list">
+          <li class="header-general-item">
+            <a href="#" class="header-general-link">About Us</a>
+          </li>
+          <li class="header-general-item">
+            <a href="#" class="header-general-link">Our Collection</a>
+          </li>
+          <li class="header-general-item">
+            <a href="#order" class="header-general-link">Customer Order</a>
+          </li>
+          <li class="header-general-item">
+            <a href="#" class="header-general-link">Testimonial</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header-right-block">
+      <address class="header-address">
+        <a class="header-tel" href="+380684439426">+380 (68) 443-94-26</a>
+      </address>
+      <nav class="header-menu-social">
+        <ul class="header-social-list">
+          <li class="header-social-item">
+            <a
+              href="https://www.facebook.com/goITclub/"
+              class="header-social-link"
+              target="_blank"
+              aria-label="facebook link"
+            >
+              <svg class="header-social-link" width="28" height="28">
+                <use href="./icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header-social-item">
+            <a
+              href="https://www.instagram.com/goitclub/"
+              class="header-social-link"
+              target="_blank"
+              aria-label="instagram link"
+            >
+              <svg class="header-social-link" width="28" height="28">
+                <use href="./icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header-social-item">
+            <a
+              href="https://www.youtube.com/c/GoIT"
+              class="header-social-link"
+              target="_blank"
+              aria-label="youtube link"
+            >
+              <svg class="header-social-link" width="28" height="28">
+                <use href="./icons.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <button type="button" class="header-burger-menu">
+        <span class="visually-hidden">Open menu</span>
+        <svg class="header-burger-icon" width="36" height="24">
+          <use href="./icons.svg#icon-burger"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
 </header>
 
 
