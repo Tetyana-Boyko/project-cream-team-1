@@ -13,78 +13,45 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 body {
-  font-family: "Manrope", sans-serif;
-  color: #fcf9f9;
+  font-family: 'Manrope', sans-serif;
   background-color: #1c2225;
-  list-style-type: none;
-}
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-ul {
-  list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0;
-
-}
-
-a {
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-address {
-  font-style: normal;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fcf9f9;
 }
 
 .container {
   min-width: 320px;
   max-width: 375px;
-  padding: 0 20px 80px 20px;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
-/* Add stiles 
-
-body {
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
 }
 
-.container {
-}
-
-.section-paddings {
-}
-
-.section-title {
-}
-
-@media screen and (max-width: 767px) {
-    
-}
 @media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
 }
 
-@media screen and (min-width: px) {
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 50px;
+  }
 }
 
-*/
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding: 0 100px;
+  }
+}

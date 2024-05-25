@@ -1,17 +1,21 @@
+.main-about{
+    position: relative;
+    overflow: hidden;
+}
+.about-item {
+    /*position: relative;
+    overflow: hidden;*/
+    margin-bottom: 80px;
+
+}
 .about-title {
     font-weight: 500;
     font-size: 32px;
     line-height: 137%;
     letter-spacing: -0.03em;
     margin-bottom: 40px;
-}
-
-.about-item {
-    position: relative;
-    width: 335px;
 
 }
-
 .about-about {
     display: block;
     margin-bottom: 50px;
@@ -52,7 +56,7 @@
 
     .about-item {
         width: 704px;
-
+        margin-bottom: 100px;
     }
 
     .about-title {
@@ -81,6 +85,7 @@
         left: 367px;
         width: 545px;
         height: 484px;
+        
     }
 }
 
@@ -95,6 +100,7 @@
     .about-item {
         display: flex;
         width: 1180px;
+        margin-bottom: 150px;
     }
 
     .about-about {
