@@ -104,7 +104,7 @@
 
 .order-form-submit:hover,
 .order-form-submit.focus {
-  border-color: rgba(252, 249, 249, 0.6);
+  border-color: #ecd979;
 }
 
 .order-img-wrapper {
