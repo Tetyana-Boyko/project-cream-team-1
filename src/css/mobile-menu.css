@@ -1,6 +1,5 @@
 .mobile-menu.is-open {
   background-color: #ecd979;
-  opacity: 1;
   width: 274px;
   height: 812px;
   padding: 20px;
@@ -14,8 +13,6 @@
   transition: transform 250ms ease-in-out;
 }
 .mobile-menu {
-  opacity: 0;
-  pointer-events: none;
   transform: translateX(100%);
   position: fixed;
 }
