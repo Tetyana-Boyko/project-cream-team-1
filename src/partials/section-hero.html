@@ -1,1 +1,61 @@
-<section>Hero</section>
+<section class="hero">
+  <div class="container hero-container">
+    <h1 class="main-title">
+      Reviving the traditional
+      <span class="color-maintitle">Ukrainian</span> artistry in every stitch.
+    </h1>
+    <div class="home-made">
+      <svg class="icon-hero-star-icon" width="52" height="51">
+        <use href="../img/icons.svg#icon-hero-star-icon"></use>
+      </svg>
+      <p class="home-made-text">all embroidery is made by hand</p>
+    </div>
+    <button class="order-service-btn" type="button">
+      Order
+      <svg class="order-arrow-icon" width="24" height="16">
+        <use href="./img/icons.svg#icon-order-arrow-icon"></use>
+      </svg>
+    </button>
+  </div>
+  <picture>
+    <!-- Desktop screen -->
+
+    <source
+      media="(min-width: 1280px)"
+      srcset="
+        ./img/hero-images/hero-girl-desktop.jpg    1x,
+        ./img/hero-images/hero-girl-desktop@2x.jpg 2x
+      "
+      type="image/jpg"
+    />
+    <!-- Tablet screen -->
+
+    <source
+      media="(min-width: 768px)"
+      srcset="
+        ./img/hero-images/hero-girl-tablet.jpg    1x,
+        ./img/hero-images/hero-girl-tablet@2x.jpg 2x
+      "
+      type="image/jpg"
+    />
+
+    <!-- Mobile screen -->
+
+    <source
+      media="(max-width: 767px)"
+      srcset="
+        ./img/hero-images/hero-girl-mobile.jpg    1x,
+        ./img/hero-images/hero-girl-mobile@2x.jpg 2x
+      "
+      type="image/jpg"
+    />
+    <img
+      class="card-img"
+      src="./img/hero-images/hero-girl-mobile.jpg"
+      alt="hero-girl-mobile"
+      width="335"
+      height="545"
+      loading="lazy"
+    />
+  </picture>
+</section>
