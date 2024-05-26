@@ -21,6 +21,7 @@ body {
   font-size: 14px;
   color: #fcf9f9;
 }
+
 .container {
   min-width: 320px;
   max-width: 375px;
@@ -51,21 +52,5 @@ body {
   }
 }
 
-/* Add stiles 
 
-.section-paddings {
-}
 
-.section-title {
-}
-
-body {
-  font-weight: 400;
-  font-size: 14px;
-}
-
-.container {
-  padding: 0 20px 80px 20px;
-}
-
-*/
