@@ -21,7 +21,6 @@ body {
   font-size: 14px;
   color: #fcf9f9;
 }
-
 .container {
   min-width: 320px;
   max-width: 375px;
@@ -51,6 +50,3 @@ body {
     padding: 0 100px;
   }
 }
-
-
-
