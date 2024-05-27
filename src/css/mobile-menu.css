@@ -120,15 +120,9 @@
     margin: 11px;
   }
 
-  .background {
-    max-width: 545px;
-    height: 484px;
-    top: 660px;
-    left: -75px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .mobile-menu {
-    display: none;
+  @media screen and (min-width: 1280px) {
+    .mobile-menu {
+      display: none;
+    }
   }
 }
