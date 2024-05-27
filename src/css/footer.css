@@ -2,17 +2,15 @@
     margin: 0 auto;
     padding-top: 40px;
     padding-bottom: 292px;
-    background-image: url(/img/footer_images/footer@1x-mob.png);
+    background-image: url(/src/img/footer-images/footer-1x-mob-min.png);
     background-repeat: no-repeat;
     background-position: bottom;
     border-top: 1px solid rgba (252, 249, 249, .1);
 }
 
-@media screen and (min-resolution: 192dpi) and (min-width: 375px),
-screen and (min-resolution: 2dppx) and (min-width: 375px),
-screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
+@media screen and (min-resolution: 192dpi) and (min-width: 375px) {
     .footer {
-        background-image: url(/img/footer_images/footer@2x-mob.png);
+        background-image: url(/src/img/footer-images/footer-2x-mob-min.png);
         background-size: 375px;
     }
 }
@@ -20,6 +18,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
 .footer-container {
     padding-top: 40px;
     box-sizing: border-box;
+    border-top: 1px solid rgba (252, 249, 249, .1);
 }
 
 
@@ -78,6 +77,10 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
         border-top: 1px solid rgba (252, 249, 249, .1);
     }
 
+    .footer-container {
+        border-top: 1px solid rgba (252, 249, 249, .1);
+    }
+
     .footer-title {
         font-size: 54px;
         line-height: 1.19;
@@ -107,7 +110,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
     .footer {
         padding-top: 50px;
         padding-bottom: 40px;
-        background-image: url(/src/img/footer_images/footer@1x-tablet.png);
+        background-image: url(/src/img/footer-images/footer-1x-tab-min.png);
         background-repeat: no-repeat;
         background-position: bottom right;
         background-size: 174px;
@@ -122,11 +125,9 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
 
 }
 
-@media screen and (min-resolution: 192dpi) and (min-width: 768px),
-screen and (min-resolution: 2dppx) and (min-width: 768px),
-screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+@media screen and (min-resolution: 192dpi) and (min-width: 768px) {
     .footer {
-        background-image: url(/src/img/footer_images/footer@2x-tablet.png);
+        background-image: url(/src/img/footer-images/footer-2x-tab-min.png);
     }
 }
 
@@ -143,6 +144,10 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
         max-width: 1139px;
         padding: 0 50px;
         margin: 0 auto;
+        
+        .footer-container {
+                border-top: 1px solid rgba (252, 249, 249, .1);
+            }
     }
 
 
@@ -190,17 +195,15 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 
     .footer {
         padding-top: 75px;
-        background-image: url(/src/img/footer_images/footer@1x-desktop_1280.png);
+        background-image: url(/src/img/footer-images/footer-1x-des1280-min.png);
         background-size: 336px;
     }
 }
 
-@media screen and (min-resolution: 192dpi) and (min-width: 1280px),
-screen and (min-resolution: 2dppx) and (min-width: 1280px),
-screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px) {
     .footer {
         border-top: 1px solid rgba (252, 249, 249, .1);
-        background-image: url(/src/img/footer_images/footer@2x-desktop_1280.png);
+        background-image: url(/src/img/footer-images/footer-2x-des1280-min.png);
     }
 }
 
@@ -215,18 +218,22 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
         margin: 0 auto;
     }
 
+        .footer-container {
+            border-top: 1px solid rgba (252, 249, 249, .1);
+        }
+
     .footer {
-        background-image: url(/src/img/footer_images/footer@1x-desktop_1440.png);
+        background-image: url(/src/img/footer-images/footer-1x-des1440-min.png);
         background-size: 496px;
         max-width: 1440px;
         border-top: 1px solid rgba (252, 249, 249, .1);
     }
 }
 
-@media screen and (min-resolution: 192dpi) and (min-width: 1440px),
-screen and (min-resolution: 2dppx) and (min-width: 1440px),
-screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1440px) {
     .footer {
-        background-image: url(/src/img/footer_images/footer@2x-desktop_1440.png);
+        background-image: url(/src/img/footer-images/footer-2x-des1440-min.png);
     }
 }
