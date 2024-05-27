@@ -2,15 +2,15 @@
     margin: 0 auto;
     padding-top: 40px;
     padding-bottom: 292px;
-    background-image: url(/src/img/footer-images/footer-1x-mob-min.png);
+    background-image: url(/img/footer-images/footer-1x-mob-min.png);
     background-repeat: no-repeat;
     background-position: bottom;
-    border-top: 1px solid rgba (252, 249, 249, .1);
 }
+
 
 @media screen and (min-resolution: 192dpi) and (min-width: 375px) {
     .footer {
-        background-image: url(/src/img/footer-images/footer-2x-mob-min.png);
+        background-image: url(/img/footer-images/footer-2x-mob-min.png);
         background-size: 375px;
     }
 }
@@ -18,7 +18,7 @@
 .footer-container {
     padding-top: 40px;
     box-sizing: border-box;
-    border-top: 1px solid rgba (252, 249, 249, .1);
+    border-top: 1px solid rgba(252, 249, 249, .1);
 }
 
 
@@ -73,12 +73,9 @@
 
 @media screen and (min-width: 768px) {
 
-    .footer {
-        border-top: 1px solid rgba (252, 249, 249, .1);
-    }
 
     .footer-container {
-        border-top: 1px solid rgba (252, 249, 249, .1);
+        border-top: 1px solid rgba(252, 249, 249, .1);
     }
 
     .footer-title {
@@ -110,7 +107,7 @@
     .footer {
         padding-top: 50px;
         padding-bottom: 40px;
-        background-image: url(/src/img/footer-images/footer-1x-tab-min.png);
+        background-image: url(/img/footer-images/footer-1x-tab-min.png);
         background-repeat: no-repeat;
         background-position: bottom right;
         background-size: 174px;
@@ -127,7 +124,7 @@
 
 @media screen and (min-resolution: 192dpi) and (min-width: 768px) {
     .footer {
-        background-image: url(/src/img/footer-images/footer-2x-tab-min.png);
+        background-image: url(/img/footer-images/footer-2x-tab-min.png);
     }
 }
 
@@ -135,9 +132,6 @@
 
 @media screen and (min-width: 1280px) {
 
-    .footer {
-        border-top: 1px solid rgba (252, 249, 249, .1);
-    }
 
     .container {
         min-width: 1280px;
@@ -146,7 +140,7 @@
         margin: 0 auto;
         
         .footer-container {
-                border-top: 1px solid rgba (252, 249, 249, .1);
+                border-top: 1px solid rgba(252, 249, 249, .1);
             }
     }
 
@@ -195,15 +189,14 @@
 
     .footer {
         padding-top: 75px;
-        background-image: url(/src/img/footer-images/footer-1x-des1280-min.png);
+        background-image: url(/img/footer-images/footer-1x-des1280-min.png);
         background-size: 336px;
     }
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 1280px) {
     .footer {
-        border-top: 1px solid rgba (252, 249, 249, .1);
-        background-image: url(/src/img/footer-images/footer-2x-des1280-min.png);
+        background-image: url(/img/footer-images/footer-2x-des1280-min.png);
     }
 }
 
@@ -219,14 +212,13 @@
     }
 
         .footer-container {
-            border-top: 1px solid rgba (252, 249, 249, .1);
+            border-top: 1px solid rgba(252, 249, 249, .1);
         }
 
     .footer {
-        background-image: url(/src/img/footer-images/footer-1x-des1440-min.png);
+        background-image: url(/img/footer-images/footer-1x-des1440-min.png);
         background-size: 496px;
         max-width: 1440px;
-        border-top: 1px solid rgba (252, 249, 249, .1);
     }
 }
 
@@ -234,6 +226,6 @@
 
 @media screen and (min-resolution: 192dpi) and (min-width: 1440px) {
     .footer {
-        background-image: url(/src/img/footer-images/footer-2x-des1440-min.png);
+        background-image: url(/img/footer-images/footer-2x-des1440-min.png);
     }
 }
