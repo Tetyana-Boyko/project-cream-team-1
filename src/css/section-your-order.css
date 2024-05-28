@@ -60,6 +60,7 @@
 }
 
 .order-form-message {
+  display: block;
   width: 100%;
   height: 196px;
   border: 1px solid rgba(252, 249, 249, 0.1);
@@ -122,11 +123,11 @@
 @media screen and (min-width: 768px) {
   .order {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     background-image: url(/img/order/order-element-gray.png);
     background-repeat: no-repeat;
     background-size: 323px 484px;
-    background-position: left bottom;
+    background-position: left bottom 50px;
   }
 
   .container {
@@ -253,11 +254,11 @@
     background-repeat: no-repeat;
     background-size: 325px 484px;
     background-position: left bottom;
-    }
+  }
 
-   .order-content-wrapper {
+  .order-content-wrapper {
     max-width: 600px;
-   }
+  }
 
   .order-bg-container {
     max-width: 1440px;
@@ -267,15 +268,15 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 1440px 776px;
-    }
+  }
 
   .order-title {
     max-width: 666px;
-    }
+  }
 
   .order-form-message {
     font-size: 16px;
-    }
+  }
 }
 
 @media (min-resolution: 192dpi) and (min-width: 1440px) {
@@ -283,4 +284,3 @@
     background-image: url(/img/desktop-order/desktop-bg-order@2x-min.jpg);
   }
 }
-
