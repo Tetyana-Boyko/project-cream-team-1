@@ -1,10 +1,11 @@
 .section-testimonials-container {
-  max-width: 375px;
+  /* max-width: 375px; */
+    max-width: 375px;
 }
 
 .section-testimonials {
   justify-content: center;
-  align-items: center;
+  align-items: center;c
   padding-top: 96px;
   padding-bottom: 80px;
 }
