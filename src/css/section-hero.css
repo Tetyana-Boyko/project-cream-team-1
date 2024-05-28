@@ -1,0 +1,124 @@
+.hero {
+  padding-top: 84px;
+  padding-bottom: 40px;
+}
+.main-title {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.09091;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+  margin-bottom: 20px;
+}
+
+.color-maintitle {
+  color: #ecd979;
+}
+
+.order-service-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: #1c2225;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 154px;
+  height: 49px;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #fcf9f9;
+  margin-bottom: 40px;
+  transition: border-color 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.order-service-link:hover,
+.order-service-link:focus {
+  border-color: #ecd979;
+}
+.order-arrow-icon {
+  fill: #ecd979;
+}
+
+.home-made {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  .main-title {
+    max-width: 549px;
+    font-size: 54px;
+    line-height: 1.18519;
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+  }
+
+  .order-service-link {
+    max-width: 168px;
+    height: 50px;
+    margin-left: 141px;
+    margin-bottom: 46px;
+  }
+.hero-container{
+    position: relative;
+}
+  .home-made {
+    display: block;
+    max-width: 115px;
+    position: absolute;
+    top: 16px;
+    right: 32px;
+    text-align: center;
+  }
+
+  .home-made-text {
+    font-size: 16px;
+    letter-spacing: -0.04em;
+ 
+    color: rgba(252, 249, 249, 0.4);
+  }
+  .icon-hero-star-icon{
+    margin-bottom: 16px;
+   
+  }
+  .hero-img{
+    width: 413px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+   .hero{
+    padding-bottom: 75px;
+    
+  }
+  .hero-container{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 40px;
+    justify-content: flex-end;
+  }
+
+  .main-title{
+    max-width: 518px;
+  }
+  .home-made{
+    top: 14px;
+    right: 50px;
+  }
+  .hero-img{
+    width: 392px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+   .home-made{
+    right: 100px;
+    top: 66px;
+    
+  }
+}
