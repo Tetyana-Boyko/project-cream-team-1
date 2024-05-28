@@ -1,4 +1,5 @@
-<section class="main-about container" id="about-us">
+
+<section class="main-about" id="anchor1">
   <div class="about-item">
     <div class="about-list">
       <h2 class="about-title">About Us</h2>
@@ -25,13 +26,19 @@
     </div>
 
     <picture>
+      <source 
+      srcset="/img/about-us/girl-boydesk1440-1x.jpg 1x,
+      /img/about-us/girl-boydesk1440-2x.jpg 2x"
+      media="(min-width:1440px)"
+      />
       <source
         srcset="
           /img/about-us/girl-about-desk-1x.jpg 1x,
           /img/about-us/girl-about-desk-2x.jpg 2x
         "
-        media="(min-width:1200px)"
-      />
+
+        media="(min-width:1280px)"
+              />
       <source
         srcset="
           /img/about-us/girl-about-tab-1x.jpg 1x,
@@ -55,11 +62,5 @@
       />
     </picture>
   </div>
-  <img
-    class="about-overlay"
-    src="/img/about-us/g8uzor-gren.png"
-    width="459"
-    height="408"
-    alt="element"
-  />
+
 </section>

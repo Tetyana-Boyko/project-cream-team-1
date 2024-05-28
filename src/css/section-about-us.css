@@ -1,12 +1,14 @@
-.main-about{
-    position: relative;
-    overflow: hidden;
-}
-.about-item {
-    /*position: relative;
-    overflow: hidden;*/
-    margin-bottom: 80px;
-
+.main-about {
+    background-image: url(/img/about-us/about-background-mobile.png);
+    background-repeat: no-repeat;
+    max-width: 375px;
+    padding: 0 20px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background-position: right;
+    background-position-y: 605px;
+    
+    
 }
 .about-title {
     font-weight: 500;
@@ -14,16 +16,13 @@
     line-height: 137%;
     letter-spacing: -0.03em;
     margin-bottom: 40px;
-
 }
 .about-about {
     display: block;
     margin-bottom: 50px;
-
 }
-
 .about-text {
-    font-family: "Manrope", sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 400;
     font-size: 14px;
     letter-spacing: -0.04em;
@@ -31,112 +30,89 @@
     margin-bottom: 20px;
     max-width: 335px;
 }
-
 .about-img {
     border-radius: 4px;
-    width: 335px;
+    width: 320px;
     height: 499px;
     right: 0px;
 }
-
-.about-overlay {
-    position: absolute;
-    top: 611px;
-    left: 105px;
-    width: 459px;
-    height: 408px;
-}
-
-
 /*---tablet--*/
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-        padding: 0 32px;
-    }
-
-    .about-item {
-        width: 704px;
-        margin-bottom: 100px;
-    }
-
-    .about-title {
-        font-size: 44px;
-        line-height: 145%;
-        margin-bottom: 40px;
-    }
-
-    .about-about {
-        margin-bottom: 40px;
-    }
-
-    .about-text {
-        font-size: 16px;
-        max-width: 704px;
-    }
-
-    .about-img {
-        width: 704px;
-        height: 545px;
-
-    }
-
-    .about-overlay {
-        top: 473px;
-        left: 367px;
-        width: 545px;
-        height: 484px;
-        
-    }
+.main-about {
+    background-image: url(/img/about-us/about-background-table.png);
+    padding: 0 32px;
+    background-position-y: 483px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 768px;
 }
-
+.about-item {
+    width: 704px;
+}
+.about-title {
+    font-size: 44px;
+    line-height: 145%;
+    margin-bottom: 40px;
+}
+.about-about {
+    margin-bottom: 40px;
+}
+.about-text {
+    font-size: 16px;
+    max-width: 704px;
+}
+.about-img {
+    width: 704px;
+    height: 545px;
+}
+}
 /*---- desktop 1280----*/
 @media screen and (min-width: 1280px) {
-
-    .container {
-        max-width: 1280px;
-        padding: 0 50px;
-    }
-
-    .about-item {
-        display: flex;
-        width: 1180px;
-        margin-bottom: 150px;
-    }
-
-    .about-about {
-        margin-bottom: 0px;
-    }
-
-    .about-list {
-        padding-top: 79px;
-        padding-bottom: 79px;
-        margin-right: 50px;
-    }
-
-    .about-text {
-        max-width: 508px;
-    }
-
-    .about-img {
-        width: 100%;
-        height: 545px;
-    }
-
-    .about-overlay {
-        top: 141px;
-        left: 845px;
-        width: 545px;
-        height: 484px;
-    }
+.main-about {
+    max-width: 1280px;
+    padding: 0 50px;
+    padding-top: 75px;
+    padding-bottom: 80px;
+    background-position-y: 216px;
+    background-image: url(/img/about-us/about-background-desktop.png);
 }
-
+.about-item {
+    display: flex;
+    width: 1180px;
+}
+.about-about {
+    margin-bottom: 0px;
+}
+.about-list {
+    padding-top: 78px;
+    padding-bottom: 78px;
+    margin-right: 50px;
+}
+.about-text {
+    max-width: 536px;
+}
+.about-img {
+    width: 594px;
+    height: 545px;
+}
+}
 /*--- desktop 1440  ---*/
 @media screen and (min-width: 1440px) {
-    .container {
-        max-width: 1440px;
-        padding: 0 100px;
-    }
-
-
+.main-about {
+    max-width: 1440px;
+    padding: 0 100px;
+    padding-top: 75px;
+    padding-bottom: 80px;
+    background-image: url(/img/about-us/g8uzor-gren.png);
+    
+}
+.about-item{
+    max-width: 1240px;
+}
+.about-text {
+    width: 481px;
+}
+.about-img {
+    width: 709px;
+}
 }

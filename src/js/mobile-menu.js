@@ -11,8 +11,8 @@
     mobileMenu.classList.toggle('is-open');
 
     const scrollLockMethod = !isMenuOpen
-      ? 'disableBodyScroll'
-      : 'enableBodyScroll';
+      ? 'enableBodyScroll'
+      : 'disableBodyScroll';
     bodyScrollLock[scrollLockMethod](document.body);
 
     if (anchors.length === 0) return;
