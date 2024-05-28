@@ -22,7 +22,7 @@
 }
 
 
-.footer-nav {
+.footer-menu {
     display: inline-block;
 }
 
@@ -139,9 +139,9 @@
         padding: 0 50px;
         margin: 0 auto;
         
-        .footer-container {
-                border-top: 1px solid rgba(252, 249, 249, .1);
-            }
+    .footer-container {
+        border-top: 1px solid rgba(252, 249, 249, .1);
+        }
     }
 
 
