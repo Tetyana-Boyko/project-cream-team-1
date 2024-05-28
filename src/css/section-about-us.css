@@ -1,142 +1,134 @@
-.main-about{
-    position: relative;
-    overflow: hidden;
-}
-.about-item {
-    /*position: relative;
-    overflow: hidden;*/
-    margin-bottom: 80px;
-
+.main-about {
+  background-image: url(../img/about-us/about-background-mobile.png);
+  background-repeat: no-repeat;
+  padding: 0 20px;
+  background-position: bottom right;
+  padding-bottom: 80px;
+  background-position-y: 560px;
 }
 .about-title {
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 137%;
-    letter-spacing: -0.03em;
-    margin-bottom: 40px;
-
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 137%;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
 }
 .about-about {
-    display: block;
-    margin-bottom: 50px;
-
+  display: block;
+  margin-bottom: 50px;
 }
 
 .about-text {
-    font-family: "Manrope", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: -0.04em;
-    color: rgba(252, 249, 249, 0.4);
-    margin-bottom: 20px;
-    max-width: 335px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.04em;
+  color: rgba(252, 249, 249, 0.4);
+  margin-bottom: 20px;
+  max-width: 335px;
 }
 
 .about-img {
-    border-radius: 4px;
-    width: 335px;
-    height: 499px;
-    right: 0px;
+  border-radius: 4px;
+  width: 335px;
+  height: 499px;
+  right: 0px;
 }
 
 .about-overlay {
-    position: absolute;
-    top: 611px;
-    left: 105px;
-    width: 459px;
-    height: 408px;
+  position: absolute;
+  top: 611px;
+  left: 105px;
+  width: 459px;
+  height: 408px;
 }
-
 
 /*---tablet--*/
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-        padding: 0 32px;
-    }
+  .main-about {
+    background-image: url(../img/about-us/about-background-table.png);
+    padding: 0 32px;
+    background-position-y: bottom;
+    padding-bottom: 50px;
+    max-width: 768px;
+  }
+  .about-item {
+    width: 704px;
+  }
 
-    .about-item {
-        width: 704px;
-        margin-bottom: 100px;
-    }
+  .about-title {
+    font-size: 44px;
+    line-height: 145%;
+    margin-bottom: 40px;
+  }
 
-    .about-title {
-        font-size: 44px;
-        line-height: 145%;
-        margin-bottom: 40px;
-    }
+  .about-about {
+    margin-bottom: 40px;
+  }
 
-    .about-about {
-        margin-bottom: 40px;
-    }
+  .about-text {
+    font-size: 16px;
+    max-width: 704px;
+  }
 
-    .about-text {
-        font-size: 16px;
-        max-width: 704px;
-    }
+  .about-img {
+    width: 704px;
+    height: 545px;
+  }
 
-    .about-img {
-        width: 704px;
-        height: 545px;
-
-    }
-
-    .about-overlay {
-        top: 473px;
-        left: 367px;
-        width: 545px;
-        height: 484px;
-        
-    }
+  .about-overlay {
+    top: 473px;
+    left: 367px;
+    width: 545px;
+    height: 484px;
+  }
 }
 
 /*---- desktop 1280----*/
 @media screen and (min-width: 1280px) {
+  .main-about {
+    max-width: 1280px;
+    padding: 0 50px;
+    padding-bottom: 75px;
+    background-image: url(../img/about-us/about-background-desktop.png);
+  }
 
-    .container {
-        max-width: 1280px;
-        padding: 0 50px;
-    }
+  .about-item {
+    display: flex;
+    width: 1180px;
+  }
 
-    .about-item {
-        display: flex;
-        width: 1180px;
-        margin-bottom: 150px;
-    }
+  .about-about {
+    margin-bottom: 0px;
+  }
 
-    .about-about {
-        margin-bottom: 0px;
-    }
+  .about-list {
+    padding-top: 79px;
+    padding-bottom: 79px;
+    margin-right: 50px;
+  }
 
-    .about-list {
-        padding-top: 79px;
-        padding-bottom: 79px;
-        margin-right: 50px;
-    }
+  .about-text {
+    max-width: 508px;
+  }
 
-    .about-text {
-        max-width: 508px;
-    }
+  .about-img {
+    width: 100%;
+    height: 545px;
+  }
 
-    .about-img {
-        width: 100%;
-        height: 545px;
-    }
-
-    .about-overlay {
-        top: 141px;
-        left: 845px;
-        width: 545px;
-        height: 484px;
-    }
+  .about-overlay {
+    top: 141px;
+    left: 845px;
+    width: 545px;
+    height: 484px;
+  }
 }
 
 /*--- desktop 1440  ---*/
 @media screen and (min-width: 1440px) {
-    .container {
-        max-width: 1440px;
-        padding: 0 100px;
-    }
-
-
+  .container {
+    max-width: 1440px;
+    padding: 0 100px;
+  }
 }
