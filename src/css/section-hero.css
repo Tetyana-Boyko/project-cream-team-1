@@ -32,7 +32,7 @@
   text-transform: uppercase;
   color: #fcf9f9;
   margin-bottom: 40px;
-  transition: border-color cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: border-color 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .order-service-link:hover,
 .order-service-link:focus {
