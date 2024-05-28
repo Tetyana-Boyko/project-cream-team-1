@@ -34,7 +34,7 @@
   padding-bottom: 18px;
   padding-right: 22px;
   padding-left: 22px;
-  width: 335px;
+  max-width: 335px;
 }
 
 .section-testimonials-img-listen {
@@ -77,8 +77,8 @@
   }
 
   .section-testimonials {
-    padding-bottom: 100px;
-    padding-top: 100px;
+    padding-bottom: 75px;
+    padding-top: 75px;
   }
   .section-testimonials-listen {
     flex-wrap: wrap;
@@ -109,8 +109,8 @@
   }
 
   .section-testimonials {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 75px;
+    padding-bottom: 75px;
   }
 
   .section-testimonials-title-one {
@@ -130,4 +130,12 @@
     width: 340px;
     padding-bottom: 21px;
   }
+}
+
+/* Desktop1440 */
+
+@media screen and (min-width: 1440px) {
+ .section-testimonials-paragraph {
+  width: 360px;
+ }
 }
