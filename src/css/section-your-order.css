@@ -244,3 +244,43 @@
     background-image: url(/img/order/order-bg-d1280@2x.jpg);
   }
 }
+
+/* ===== Order desktop1440 ===== */
+
+@media screen and (min-width: 1440px) {
+  .order-container {
+    background-image: url(/img/order-element-gray-1440-min.png);
+    background-repeat: no-repeat;
+    background-size: 325px 484px;
+    background-position: left bottom;
+    }
+
+   .order-content-wrapper {
+    max-width: 600px;
+   }
+
+  .order-bg-container {
+    max-width: 1440px;
+    height: 776px;
+    margin: 0 auto 150px;
+    background-image: url(/img/desktop-order/desktop-bg-order-min.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 1440px 776px;
+    }
+
+  .order-title {
+    max-width: 666px;
+    }
+
+  .order-form-message {
+    font-size: 16px;
+    }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 1440px) {
+  .order-bg-container {
+    background-image: url(/img/desktop-order/desktop-bg-order@2x-min.jpg);
+  }
+}
+
