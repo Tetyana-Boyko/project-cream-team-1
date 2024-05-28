@@ -2,8 +2,14 @@
 .collection {
     max-width: 320px;
     margin: 0 auto;
+    
 }
-  
+  .ornament {
+    background-image: url(./img/ourcollection/ornament_mobile-min.png);
+    background-position: top left;
+   width: 199px;
+   height: 177px;
+  }
 .collection-title {
      font-weight: 500;
      font-size: 32px;
@@ -57,6 +63,7 @@
   
 @media screen and (min-width:768px) {
 .collection {
+      background-image: url(./img/ourcollection/ornament_tablet-min.png);
       max-width: 768px;
       margin-top: 100px;
       margin-bottom: 100px;
@@ -76,6 +83,7 @@
   
 @media screen and (min-width:1280px) {
 .collection {
+    background-image: url(./img/ourcollection/ornament_1280-min.png);
     max-width: 1180px;
 }
 .collection-list {
@@ -88,6 +96,7 @@ width: calc((100% - 40px) / 3);
 
 @media screen and (min-width:1440px){
 .collection {
+  background-image: url(./img/ourcollection/ornament_1440-min.png);
   max-width: 1240px;
 }
 
