@@ -1,6 +1,5 @@
 .collection {
   max-width: 320px;
-  padding-top: 18px;
   margin: 0 auto;
   background-image: url(/img/ourcollection/ornament_mobile-min.png);
   background-position: left top;
@@ -90,7 +89,6 @@
     background-repeat: no-repeat;
     background-position-y: 167px;
     max-width: 1180px;
-    padding-top: 70px;
   }
   .collection-list {
     gap: 40px 20px;
