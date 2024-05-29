@@ -80,6 +80,10 @@
   .collection-item {
     width: 342px;
   }
+
+  .img {
+    height: 430px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
