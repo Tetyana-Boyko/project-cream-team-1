@@ -1,15 +1,13 @@
 
 .collection {
-    max-width: 320px;
-    margin: 0 auto;
-    
+  max-width: 320px;
+  margin: 0 auto;
+  background-image: url(/img/ourcollection/ornament_mobile-min.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-position-y: 250px;
 }
-  .ornament {
-    background-image: url(./img/ourcollection/ornament_mobile-min.png);
-    background-position: top left;
-   width: 199px;
-   height: 177px;
-  }
+
 .collection-title {
      font-weight: 500;
      font-size: 32px;
@@ -28,12 +26,14 @@
      justify-content: center;
      flex-direction: column;
      gap: 20px;
+   
 }  
 
 .collection-item { 
-    border-radius: 4px;
-    cursor: pointer;
-  }
+  max-width: 335px;
+  border-radius: 4px;
+  cursor: pointer;
+ }
 .collection-card {
      display: flex;
      align-items: flex-start;
@@ -63,7 +63,10 @@
   
 @media screen and (min-width:768px) {
 .collection {
-      background-image: url(./img/ourcollection/ornament_tablet-min.png);
+      background-image: url(/img/ourcollection/ornament_tablet-min.png);
+      background-position: left top;
+      background-repeat: no-repeat;
+      background-position-y: 207px;
       max-width: 768px;
       margin-top: 100px;
       margin-bottom: 100px;
@@ -77,26 +80,33 @@
     gap: 20px;
 }
 .collection-item {
-    max-width: 342px;
+  width: 342px;
 }
 }
   
 @media screen and (min-width:1280px) {
 .collection {
-    background-image: url(./img/ourcollection/ornament_1280-min.png);
-    max-width: 1180px;
+  background-image: url(/img/ourcollection/ornament_1280-min.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-position-y: 167px;
+  max-width: 1180px;
 }
 .collection-list {
     gap: 40px 20px;
 }
 .collection-item {
+width: 380px;
 width: calc((100% - 40px) / 3);
 }
 }
 
 @media screen and (min-width:1440px){
 .collection {
-  background-image: url(./img/ourcollection/ornament_1440-min.png);
+  background-image: url(/img/ourcollection/ornament_1440-min.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-position-y: 137px;
   max-width: 1240px;
 }
 
@@ -105,6 +115,7 @@ width: calc((100% - 40px) / 3);
        
     }
 .collection-item {
-    width: calc((100% - 40px) / 3);
+  width: 400px;
+  width: calc((100% - 40px) / 3);
 }
 }
