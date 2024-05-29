@@ -26,11 +26,12 @@
      justify-content: center;
      flex-direction: column;
      gap: 20px;
+    
    
 }  
 
 .collection-item { 
-  max-width: 335px;
+  max-width: 342px;
   border-radius: 4px;
   cursor: pointer;
  }
