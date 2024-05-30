@@ -12,7 +12,7 @@
 .section-testimonials-title-one {
   font-weight: 500;
   font-size: 32px;
-  line-height: 1, 37;
+  line-height: 1.4;
   letter-spacing: -0.03em;
   color: #fcf9f9;
   text-transform: capitalize;
@@ -30,7 +30,6 @@
   padding-bottom: 18px;
   padding-right: 22px;
   padding-left: 22px;
-  max-width: 335px;
 }
 
 .section-testimonials-img-listen {
@@ -44,7 +43,7 @@
 .section-testimonials-title-two {
   font-weight: 600;
   font-size: 20px;
-  line-height: 1, 5;
+  line-height: 1.5;
   text-align: center;
   color: #fcf9f9;
   margin-bottom: 8px;
@@ -114,7 +113,7 @@
   .section-testimonials-title-one {
     font-weight: 500;
     font-size: 44px;
-    line-height: 1, 45;
+    line-height: 1.5;
     margin-bottom: 64px;
   }
   .section-testimonials-listen {
@@ -131,9 +130,9 @@
 }
 
 /* Desktop1440 */
-
 @media screen and (min-width: 1440px) {
- .section-testimonials-paragraph {
-  width: 360px;
- }
+.section-testimonials-paragraph {
+    width: 360px;
+    padding: 0 18px 18px;
+}
 }
