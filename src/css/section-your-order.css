@@ -137,8 +137,8 @@
 
   .order-bg-container {
     border-radius: 4px;
-    max-width: 704px;
-    height: 521px;
+    max-width: 768px;
+    height: 776px;
     margin: 0 auto 100px;
     background-image: url(/img/order/order-bg-tablet.jpg);
   }
